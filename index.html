@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>부자따라 부자되기</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <!-- React 라이브러리 로드 -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- 아이콘 라이브러리 -->
+  <script src="https://unpkg.com/lucide-react@latest"></script>
+</head>
+<body class="bg-gray-50">
+  <div id="root"></div>
+  
+  <!-- 파일 순서대로 로드 (데이터 먼저, 메인 앱 마지막) -->
+  <script type="text/babel" src="data.js"></script>
+  <script type="text/babel" src="components.js"></script>
+  <script type="text/babel" src="app.js"></script>
+</body>
+</html>
